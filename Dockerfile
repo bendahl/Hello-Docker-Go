@@ -1,3 +1,3 @@
-FROM alpine:3.6
-ADD Hello-Docker-Go /
-CMD ["/Hello-Docker-Go"]
+FROM scratch
+ADD hello_docker /
+CMD ["/hello_docker"]
