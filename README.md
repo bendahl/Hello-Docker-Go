@@ -7,5 +7,5 @@ images may entail.
 
 _Base images used per branch:_
 * master: scratch
-* alpine: alpine:3.6
-* ubuntu: ubuntu:16.04
+* alpine: alpine:3.10
+* ubuntu: ubuntu:18.04
