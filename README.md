@@ -47,6 +47,9 @@ Multistage builds are a great feature provided by Docker. It allows us to use an
 actual build and use the resulting artifact(s) in the final image. To find out more about the nitty gritty of multistage
 builds, have a look at the [excellent documentation provided by Docker](https://docs.docker.com/develop/develop-images/multistage-build/).
 
+In order to build the example provided here, enter `docker build -f Dockerfile_multistage -t hello-docker:1.0 .` in order
+to build the image using a multistage build.
+
 
 ## Creating and running a container based on your image
 Given that you've successfully created an image following the above instructions, a plain `docker run hello-docker:<your-tag>` 
