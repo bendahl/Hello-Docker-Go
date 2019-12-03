@@ -5,6 +5,6 @@ COPY go.mod /build
 COPY hello.go /build
 RUN go build
 
-FROM scratch
+FROM ubuntu:18.04
 COPY --from=0 /build /
 CMD ["/hello_docker"]
