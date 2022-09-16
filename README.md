@@ -14,8 +14,8 @@ structure. This approach has two major advantages:
 
 _Base images used per branch:_
 * master: scratch
-* alpine: alpine:3.10
-* ubuntu: ubuntu:18.04
+* alpine: alpine:3.16
+* ubuntu: ubuntu:22.04
 
 ## Prerequisites
 - Mandatory
